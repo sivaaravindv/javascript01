@@ -1495,6 +1495,3 @@ input:checked ~ .menu-label::after {
     transform: translateX(-95%);
   }
 }
-header .container svg {
-  fill: #0070f3;
-}
