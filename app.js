@@ -149,6 +149,7 @@ window.addEventListener('scroll', () => {
   let y = window.scrollY;
   if (y >= 60) {
     main_nav.classList.add('disappear');
+    popover.classList.remove('active');
     return;
   } else {
     main_nav.classList.remove('disappear');
