@@ -155,3 +155,15 @@ window.addEventListener('scroll', () => {
     // note that this is a class defined in your CSS.
   }
 });
+
+function mymode() {
+  var x = document.getElementById('cars').value;
+  var a = document.querySelector('.body');
+  if (x == 'dark') {
+    a.classList?.add('active');
+    console.log('read dark');
+  } else {
+    a.classList?.remove('active');
+    console.log('read light');
+  }
+}

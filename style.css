@@ -1029,6 +1029,7 @@ input:checked ~ .acc-content {
   padding: 0;
   height: auto;
   width: 100%;
+  margin-top: 5px;
 }
 
 .mobile-menu-wrap ul .login-btn,
@@ -1303,6 +1304,11 @@ input:checked ~ .menu-label::after {
     color: white;
     border-radius: 5px;
   }
+
+  body.active .desk-nav ul:nth-child(2) li:nth-child(3) a {
+    color: #000;
+    background-color: #fff;
+  }
   .desk-nav ul:nth-child(1) li:nth-child(1) a::after {
     position: absolute;
     content: '>';
@@ -1448,6 +1454,8 @@ input:checked ~ .menu-label::after {
     border-bottom: none;
     width: auto;
   }
+
+ 
   .acc-content {
     max-height: 100%;
     padding: 0;
@@ -1495,3 +1503,105 @@ input:checked ~ .menu-label::after {
     transform: translateX(-95%);
   }
 }
+
+body.active header {
+  background-color: #000;
+  border-bottom-color: #000;
+}
+
+body.active header .container svg {
+  fill: #fff;
+}
+body.active header .container .tog-btn::after,
+body.active header .container .tog-btn::before {
+  background-color: #fff;
+}
+body.active main,
+body.active footer {
+  background-color: #111111;
+}
+body.active .contact-title {
+  color: #fff;
+}
+body.active .contact-head p {
+  font-weight: 600;
+}
+body.active form {
+  background-color: #000;
+  border: 0.5px solid rgb(68, 68, 68);
+}
+body.active form input,
+body.active form textarea,
+body.active form select {
+  background-color: #000;
+  border: 0.5px solid rgb(68, 68, 68);
+}
+body.active input[type='submit'] {
+  background-color: #7928ca;
+}
+body.active .slide img {
+  filter: invert(1);
+}
+body.active .slider {
+  background-color: #000;
+}
+
+body.active .deploy {
+  background-color: #fff;
+}
+body.active .deploy-title {
+  color: #000;
+}
+body.active .accordion label,
+body.active .accordion .acc-label a {
+  color: #fff;
+}
+body.active .acc-content {
+  background-color: #101010;
+}
+body.active .accordion {
+  border-bottom: 1px solid rgb(105, 105, 105);
+}
+body.active select,
+body.active option {
+  color: rgb(255, 255, 255);
+}
+
+body.active .mobile-menu-wrap {
+  background-color: #000;
+}
+body.active .menu-tab .menu-label a {
+  color: #fff;
+}
+body.active .mobile-menu-wrap ul .login-btn,
+body.active .mobile-menu-wrap ul .signup-btn {
+  border: 1px solid rgb(105, 105, 105);
+}
+body.active .menu-tab {
+  border-bottom: 1px solid rgb(105, 105, 105);
+}
+body.active .status {
+  background-color: #000;
+  border: 1px solid rgb(105, 105, 105);
+}
+body.active .status a {
+  color: #fff;
+}
+
+body.active .popover-menu {
+  background-color: #000;
+  box-shadow: none;
+  border-bottom: 1px solid rgb(105, 105, 105);
+}
+
+
+body.active .le{background-color: #fff;color: #000;}
+body.active .popover-menu .wrapper a h6{
+  color: #fff;
+}
+body.active .popover-menu .wrapper a:hover{
+  background-color: #000;
+  border: 1px solid rgb(105, 105, 105);
+}
+body.active
+body.active
