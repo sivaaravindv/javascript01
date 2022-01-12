@@ -1604,3 +1604,6 @@ body.active .popover-menu .wrapper a:hover {
   background-color: #000;
   border: 1px solid rgb(105, 105, 105);
 }
+body.active .footlogo svg {
+  fill: #fff;
+}
